@@ -1,0 +1,18 @@
+h1 {
+  letter-spacing: 2px;
+  color: #333;
+}
+
+h3 {
+  letter-spacing: 2px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.course-section-content p {
+  padding: 0 15px;
+  text-align: justify;
+  color: rgb(72, 72, 72);
+}
+
+/*# sourceMappingURL=JqueryCourseStyle.css.map */

@@ -1,0 +1,172 @@
+$border-radius: 12px;
+$light-color: #f5f5f5;
+$dark-color: #333;
+$transition-time: 0.3s;
+
+@font-face {
+    font-family: 'rubik';
+    src: url('../fonts/Rubik/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'rubik';
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+
+/* Main Header Section */
+.main-header{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 0 0 12px 12px;
+    border: 2px solid $light-color;
+    border-top: none;
+}
+/* Main Header ==> Menu */
+.main-header-menu{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.main-header-menu ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+.main-header-menu ul li{
+    margin-right: 10px;
+}
+.main-header-menu ul li a{
+    text-decoration: none;
+    color: $light-color;
+}
+
+/* Main Header ==> Tools */
+.main-header-tools{
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+.main-header-tools-settings{
+    height: 100%;
+}
+.main-header-tools-settings a{
+    color: $light-color;
+}
+.main-header-tools-settings a i{
+    transition: $transition-time;
+}
+.main-header-tools-settings a:hover i{
+    transform: rotate(180deg);
+}
+
+/* M‌ain Header ==> Tools ==> Drop Down  */
+.main-header-tools-setting-dropdown{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background-color: $light-color;
+    border-radius: $border-radius - 7px;
+    display: none;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+.main-header-setting-item{
+    width: 100%;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+
+}
+.main-header-setting-item span{
+    color: rgb(149, 149, 149);
+    font-size: 13px;
+    margin-right: 10px;
+}
+.main-header-setting-theme label{
+    padding: 5px;
+    color: $dark-color;
+    font-size: 12px;
+    margin: 0 3px;
+}
+.main-header-setting-theme input[type=radio]{
+    visibility: hidden;
+    display: none;
+}
+.main-header-setting-theme input[type=radio]:checked + label{
+    background-color: $dark-color;
+    color: $light-color;
+}
+
+
+/* Main Body Section */
+.main-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0;
+}
+
+/* Main Body Section ==> Course Box */
+.main-body-course-box{
+    width: 60%;
+    border: 2px solid $light-color;
+    border-radius: 12px;
+    background-color: $light-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+/* Main Body Section ==> Course Box ==> Item */
+.main-body-course-box-item-wrapper{
+    height: 100px;
+}
+.main-body-course-box-item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: $transition-time;
+}
+.main-body-course-box-item:hover{
+    transform: scale(1.1);
+}
+.main-body-course-box-item a{
+    color: $dark-color;
+    text-decoration: none;
+}
+.main-body-course-box-item p{
+    color: rgb(112, 112, 112);
+}
+
+/* Main Developer Section */
+.main-developer{
+    padding: 10px 30px;
+    background-color: $light-color;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    border-radius: $border-radius - 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 13px;
+}
