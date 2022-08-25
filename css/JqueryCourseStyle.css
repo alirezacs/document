@@ -9,10 +9,16 @@ h3 {
   margin-top: 20px;
 }
 
+.course-section-content ul {
+  padding-left: 15px;
+  color: rgb(72, 72, 72);
+}
+
 .course-section-content p {
   padding: 0 15px;
   text-align: justify;
   color: rgb(72, 72, 72);
+  margin: 0 0 15px;
 }
 
 /*# sourceMappingURL=JqueryCourseStyle.css.map */

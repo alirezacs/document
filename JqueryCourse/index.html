@@ -31,15 +31,113 @@
         <div class="container" id="container">
 
             <!-- Course Item -->
-            <div class="course-wrapper" id="sec1" title="BioGraphy">
+            <div class="course-wrapper" id="sec1" title="What is Jquery?">
                 <section class="course-section">
                     <div class="course-section-title">
-                        <h1>JQUERY Biography</h1>
+                        <h1>What Is Jquery?</h1>
                     </div>
                     <div class="course-section-content">
-                        <h3>What is Jquery?</h3>
+                        <h3 class="title">What is Jquery?</h3>
                         <p>
                             jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+                            <span class="badge bg-dark">Jquery Definition</span>
+                        </p>
+                        <h3 class="title">Jquery Biography</h3>
+                        <p>
+                            Jquery was created in january 2006 by John Resig and now maintained by a team of developers lead by Timmy Willison
+                        </p>
+                        <p>
+                            Jquery in 2006 was licensed by CC(creative commons) and in same year relicensed by MIT. it was again licensed under the GPL(General Public License) at the end of 2006.
+                        </p>
+                        <h3 class="title">Jquery Popularity</h3>
+                        <ul>
+                            <li>In 2015, jQuery was used on 62.7% of the top 1 million websites (according to BuiltWith), and 17% of all Internet websites.</li>
+                            <li>In 2017, jQuery was used on 69.2% of the top 1 million websites (according to Libscore).</li>
+                            <li>In 2018, jQuery was used on 78% of the top 1 million websites.</li>
+                            <li>In 2019, jQuery was used on 80% of the top 1 million websites (according to BuiltWith),and 74.1% of the top 10 million (per W3Techs)</li>
+                            <li>As of Apr 2021, jQuery is used by 77.8% of the top 10 million websites (according to W3Techs).</li>
+                        </ul>
+                    </div>
+                </section>
+            </div> 
+            <!-- Course Item -->
+
+            <!-- Course Item -->
+            <div class="course-wrapper" id="sec1" title="How To User Jquery?">
+                <section class="course-section">
+                    <div class="course-section-title">
+                        <h1>How To User Jquery?</h1>
+                    </div>
+                    <div class="course-section-content">
+                        <p>
+                            you can use Jquery in two way.first way is CDN(Content Delivery Network), second way is Download Source Code.
+                        </p>
+                        <h3>Jquery CDN</h3>
+                        <p>
+                            in this method you have copy below link in  your project.
+                        </p>
+                        <div class="content-code">
+                            https://code.jquery.com/jquery-3.6.0.min.js
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <h3>Download Source Code</h3>
+                        <p>
+                            in this method you have download jquery file from this link
+                            <a href="jquery.com">Jquery Website</a>
+                        </p>
+                        <p>
+                            after download source code you should place the this script tag, exactly before main script tag.
+                        </p>
+                        <div class="content-code">
+                            <code>
+                                &lt;script src="jquery.js"&gt;
+
+                                &lt;/script&gt;
+                            </code>
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div> 
+            <!-- Course Item -->
+            
+            <!-- Course Item -->
+            <div class="course-wrapper" id="sec1" title="Before Any Thing">
+                <section class="course-section">
+                    <div class="course-section-title">
+                        <h1>Before Any Thing...</h1>
+                    </div>
+                    <div class="course-section-content">
+                        <p>before any thing in jquery you should know what is <code>document.ready</code> ? </p>
+                        <p>
+                            also it is not obligatory to do this, but!!! is the best practic code. actually your code without <code>document.ready</code> still will runing.
+                        </p>
+                        <p>
+                            we do this to our code running after full load page.
+                            the syntax is like this : 
+                        </p>
+                        <div class="content-code">
+                            $(document).ready(function(){
+                                <br>
+                                // Our Code...
+                                <br>
+                            });
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>
+                            short description : we wait to load full page, then execute our Jquery Code.
                         </p>
                     </div>
                 </section>
@@ -47,24 +145,807 @@
             <!-- Course Item -->
 
             <!-- Course Item -->
-            <div class="course-wrapper" id="sec2" title="Hello World">
+            <div class="course-wrapper" id="sec1" title="Jquery Syntax">
                 <section class="course-section">
                     <div class="course-section-title">
-                        <h1>Hello World</h1>
+                        <h1>Jquery Syntax</h1>
                     </div>
                     <div class="course-section-content">
+                        <h3>Dollor Sign $</h3>
+                        <p>
+                            in jquery all the commands start with $(dollor sign) and end with ;(semicolon)
+                            for Example:
+                            <div class="content-code">
+                                <code>$('element').hide( );</code>
+                                <div class="content-code-copy">
+                                    <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                        <i class="fa-solid fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </p>
                     </div>
                 </section>
             </div>
             <!-- Course Item -->
-            
+
             <!-- Course Item -->
-            <div class="course-wrapper" id="sec2" title="Hello World">
+            <div class="course-wrapper" id="sec1" title="Selectors">
                 <section class="course-section">
                     <div class="course-section-title">
-                        <h1>Hello World</h1>
+                        <h1>Jquery Selectors</h1>
                     </div>
                     <div class="course-section-content">
+                        <p>
+                            in jquery to do a action on a element in our document we have first select that element, absolutly like js.
+                        </p>
+                        <p>
+                            select a Element and do some action on that...
+                        </p>
+                        <p>
+                            in jquery selector is like css selector. class selector, id selector etc.
+                        </p>
+                        <h3 class="mt-5">Tag Name Selector</h3>
+                        <p>
+                            in tag name selector we have give a html tag name and in return jquery give us a array!
+                        </p>
+                        <div class="content-code">
+                            <code>
+                                $('div');
+                            </code>
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content-note">
+                            NOTE: when we use tag name method we get a array, because we may have several elements with that name.
+                            <i class="fa-solid fa-warning"></i>
+                        </div>
+                        <h3 class="mt-5">Class Name Selector</h3>
+                        <p>
+                            in class name selector we have give a class and like tag name selector in return Jquery give us a array!
+                        </p>
+                        <p>
+                            as i told you in Jquery selectors is like css selector.so we put a dot before class name.
+                        </p>
+                        <div class="content-code">
+                            <code>
+                                $('.class');
+                            </code>
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content-note">
+                            NOTE: when we use class name method we get a array, because we may have several elements with that name.
+                            <i class="fa-solid fa-warning"></i>
+                        </div>
+                        <h3 class="mt-5">Id Selector</h3>
+                        <p>
+                            in id selector, as always we give a value. in this case we have give a id.
+                        </p>
+                        <p>
+                            in id selector again like class name selector we have put a #(sharp) before our id to tell jquery our mean is an id.
+                        </p>
+                        <div class="content-code">
+                            <code>
+                                $('#id');
+                            </code>
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content-note">
+                            NOTE: when we use id selector method we get an single element, because we should have one element with that id.
+                            <i class="fa-solid fa-warning"></i>
+                        </div>
+                        <h3 class="mt-5">Other Selector</h3>
+                        <p>
+                            as i told you in jquery, selectors is like css selector. so we can select an element in diffrent ways.
+                        </p>
+                        <p>
+                            for Example:
+                        </p>
+                        <div class="content-code">
+                            <code>
+                                $('div p'); // all p elements in div elements
+                                <br>
+                                $('div.division'); // all div elements with division class name
+                            </code>
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- Course Item -->
+
+            <!-- Course Item -->
+            <div class="course-wrapper" id="sec1" title="Html Elements">
+                <section class="course-section">
+                    <div class="course-section-title">
+                        <h1>Jquery Html Manipulation</h1>
+                    </div>
+                    <div class="course-section-content">
+                        <p>jquery have some tools for manipulating DOM.</p>
+                        <h3 class="mt-5">html() Method</h3>
+                        <p>
+                            this method work same innerHtml property in JS.
+                        </p>
+                        <p>
+                            with this method you cant get or set value on a target. i will try both
+                        </p>
+                        <p>geting value in a tag : </p>
+                        <div class="content-code">
+                            <code>
+                                &lt;div id='division1'&gt;
+                                <br>
+                                &lt;p&gt;
+                                Hello World
+                                &lt;/p&gt;
+                                <br>
+                                &lt;/div&gt;
+                                <br>
+                                &lt;script&gt;
+                                <br>
+                                $('#division1').html(); // return &lt;p&gt; Hello World &lt;/p&gt;
+                                <br>
+                                &lt;/script&gt;
+                            </code>
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div> 
+                        <p>seting value of a tag : </p>
+                        <div class="content-code">
+                            <code>
+                                &lt;div id='division1'&gt;
+                                <br>
+                                &lt;p&gt;
+                                Hello World
+                                &lt;/p&gt;
+                                <br>
+                                &lt;/div&gt;
+                                <br>
+                                &lt;script&gt;
+                                <br>
+                                $('#division1').html('test'); // now the #division1 content is ==> 'test'
+                                <br>
+                                &lt;/script&gt;
+                            </code>
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div> 
+
+
+                        <h3 class="mt-5">text() Method</h3>
+                        <p>
+                            this method work same innerText property in JS.
+                        </p>
+                        <p>
+                            with this method you cant get or set value on a target. i will try both
+                        </p>
+                        <p>geting value in a tag : </p>
+                        <div class="content-code">
+                            <code>
+                                &lt;div id='division1'&gt;
+                                <br>
+                                &lt;p&gt;
+                                Hello World
+                                &lt;/p&gt;
+                                <br>
+                                &lt;/div&gt;
+                                <br>
+                                &lt;script&gt;
+                                <br>
+                                $('#division1').value(); // return &lt;p&gt; Hello World &lt;/p&gt;
+                                <br>
+                                &lt;/script&gt;
+                            </code>
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div> 
+                        <p>seting value of a tag : </p>
+                        <div class="content-code">
+                            <code>
+                                &lt;div id='division1'&gt;
+                                <br>
+                                &lt;p&gt;
+                                Hello World
+                                &lt;/p&gt;
+                                <br>
+                                &lt;/div&gt;
+                                <br>
+                                &lt;script&gt;
+                                <br>
+                                $('#division1').value('test'); // now the #division1 content is ==> 'test'
+                                <br>
+                                &lt;/script&gt;
+                            </code>
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div> 
+
+                        <div class="content-note">
+                            NOTE: what is diffrence between html() and text() ???
+                            <br>
+                            html() method get the content with html tag and you can set html tag with this method
+                            <br>
+                            but text() method just get content without html tags and you can just set content, no html tag!
+                            <br>
+                            exactly same diffrence between innerHtml and innerText in JS
+                            <i class="fa-solid fa-warning"></i>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- Course Item -->
+
+            <!-- Course Item -->
+            <div class="course-wrapper" id="sec1" title="Add Element">
+                <section class="course-section">
+                    <div class="course-section-title">
+                        <h1>Jquery Add Element To DOM</h1>
+                    </div>
+                    <div class="course-section-content">
+                        <p>
+                            in jquery adding element to DOM tree is so easy!
+                        </p>
+                        <p>
+                            jquery have several method to do this, but before adding a element in dom you have create that element then add it with help of jquery methods
+                        </p>
+                        <h3>append() method</h3>
+                        <p>
+                            this method append a element or content for us in a specefic element
+                        </p>
+                        <p>
+                            in this case we create e element and then add into DOM tree.
+                        </p>
+                        <div class="content-code">
+                            let element = $('&lt;p&gt; &lt;/p&gt;').text('Hello World');
+                            <br>
+                            $('#division1').append(element);
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>
+                            in this example i first create a element and then save that in to a element with 'element' name
+                            <br>
+                            then with append Jquery method append that to #division1 element
+                        </p>
+
+
+                        <h3>prepend() method</h3>
+                        <p>
+                            this method append a element or content for us at the start of the specefic element
+                        </p>
+                        <div class="content-note">
+                            by default added element go to the end of the parent tag, for this reason we just have prepend method.
+                            <i class="fa-solid fa-warning"></i>
+                        </div>
+                        <p>
+                            in this case we create e element and then add into DOM tree.
+                        </p>
+                        <div class="content-code">
+                            let element = $('&lt;p&gt; &lt;/p&gt;').text('Hello World');
+                            <br>
+                            $('#division1').prepend(element);
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>
+                            in this example i first create a element and then save that in to a element with 'element' name
+                            <br>
+                            then with prepend Jquery method append that at the start of the #division1 element
+                        </p>
+                        
+
+                        <h3>after() method</h3>
+                        <p>
+                            this method append a element or content for us after specefic element.
+                        </p>
+                        <p>
+                            in this case we create e element and then add into DOM tree.
+                        </p>
+                        <div class="content-code">
+                            let element = $('&lt;p&gt; &lt;/p&gt;').text('Hello World');
+                            <br>
+                            $('#division1').after(element);
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>
+                            in this example i first create a element and then save that in to a element with 'element' name
+                            <br>
+                            then with after Jquery method append that after #division1 element
+                        </p>
+
+                        <h3>before() method</h3>
+                        <p>
+                            this method append a element or content for us before specefic element.
+                        </p>
+                        <p>
+                            in this case we create e element and then add into DOM tree.
+                        </p>
+                        <div class="content-code">
+                            let element = $('&lt;p&gt; &lt;/p&gt;').text('Hello World');
+                            <br>
+                            $('#division1').before(element);
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>
+                            in this example i first create a element and then save that in to a element with 'element' name
+                            <br>
+                            then with after Jquery method append that before #division1 element
+                        </p>
+                    </div>
+                </section>
+            </div>
+            <!-- Course Item -->
+
+            <!-- Course Item -->
+            <div class="course-wrapper" id="sec1" title="Remove Element">
+                <section class="course-section">
+                    <div class="course-section-title">
+                        <h1>Jquery Remove Element From DOM</h1>
+                    </div>
+                    <div class="course-section-content">
+                       <p>
+                           you can remove a element from DOM tree with remove() method
+                       </p>
+                       <div class="content-code">
+                            $('#division1').remove();
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- Course Item -->
+
+            <!-- Course Item -->
+            <!-- <div class="course-wrapper" id="sec1" title="Jquery Css Classes">
+                <section class="course-section">
+                    <div class="course-section-title">
+                        <h1>Jquery Css Classes</h1>
+                    </div>
+                    <div class="course-section-content">
+                       <p>
+                           jquery have several methods for work with class names.
+                       </p>
+                       <h3 class="mt-5">addClass() method</h3>
+                       <p>
+                           with this method you can add a class to a element classList.
+                       </p>
+                       <div class="content-code">
+                           $('#division1').addClass('test');
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <h3 class="mt-5">removeClass() Method</h3>
+                       <p>
+                           with this method you can remove a class from ClassList of a element.
+                       </p>
+                       <div class="content-code">
+                           $('#division1').removeClass('test');
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                        </div>
+
+                        <h3 class="mt-5">ToggleClass() Method</h3>
+                        <p>
+                        in jquery you can toggle a class with toggleClass() method.
+                        </p>
+                        <div class="content-code">
+                        $('#btn1').click(() => {
+                            $('#division1').toggleClass('test');
+                        });
+                        <div class="content-code-copy">
+                            <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                <i class="fa-solid fa-copy"></i>
+                            </button>
+                        </div>
+                        </div>
+                        <p>
+                        in this example i define a event for #btn whene clicked toggling test class in #division1's classList.
+                        <br>
+                        Events is explained earlier.
+                        </p>
+                    </div>
+                </section>
+            </div> -->
+            <!-- Course Item -->
+
+            <!-- Course Item -->
+            <div class="course-wrapper" id="sec1" title="Jquery Css Styles">
+                <section class="course-section">
+                    <div class="course-section-title">
+                        <h1>Jquery Css Styles</h1>
+                    </div>
+                    <div class="course-section-content">
+                        <p>
+                            we can add style in jquery with css() method.
+                        </p>
+                        <p>
+                            this method accept two arguman or one object of styles.
+                        </p>
+                        <p>
+                            if you just have a style, you can use first way, but if you have more than one style you can give a object of styles.
+                        </p>
+                        <p>
+                            if give two arguman, your first arguman is css property and second property is that value.
+                        </p>
+                        <div class="content-code">
+                            $('#division1').css('background-color', 'yellow');
+                            <br>
+                            $('#division1').css({
+                                backgroundColor: 'red',
+                                color: 'blue',
+                            });
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content-note">
+                            seting style in object way is same setting styles in JS pure.
+                            <br>
+                            the properties should is CamelCalse
+                            <i class="fa-solid fa-warning"></i>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- Course Item -->
+
+            <!-- Course Item -->
+            <div class="course-wrapper" id="sec1" title="Jquery Animations">
+                <section class="course-section">
+                    <div class="course-section-title">
+                        <h1>Jquery Animations</h1>
+                    </div>
+                    <div class="course-section-content">
+                        <p>
+                            jquery also have some animations that you can use that.
+                        </p>
+                        <h3 class="mt-5">hide() and show() Methods</h3>
+                        <p>
+                            with these methods you can hiding and showing a element.
+                        </p>
+                        <p>
+                            actually these methods changing display property of the target element.
+                        </p>
+                        <div class="content-code">
+                            $('#division1').hide(); // hiding #division1 element
+                            $('#division1').show(); // showing #division1 element
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <h3>fadeIn(), fadeOut(), fadeToggle() Method</h3>
+                        <p>
+                            with these Methods you can fading an element.
+                        </p>
+                        <p>
+                            fadeIn method show an element with fade effect, fadeOut method hiding an element with fade effect, fadeToggle do toggling between hide and show status
+                        </p>
+                        <div class="content-code">
+                            $('#division1').fadeIn(); // fade In #division1 element ===> showing element
+                            <br>
+                            $('#division1').fadeOut(); // fade Out #division1 element ===> hiding element
+                            <br>
+                            $('#btn').click(() => {
+                                <br>
+                                $('#division1').fadeToggle(); // toggling between hide and show status
+                                <br>
+                            });
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <h3>slideDown(), slideUp(), slideToggle() Method</h3>
+                        <p>
+                            with these Methods you can sliding an element.
+                        </p>
+                        <p>
+                            slideDown method show an element with slide effect, slideUp method hiding an element with slide effect, slideToggle do toggling between hide and show status
+                        </p>
+                        <div class="content-code">
+                            $('#division1').slideDown(); // show #division1 element
+                            <br>
+                            $('#division1').fadeOut(); // hide #division1 element
+                            <br>
+                            $('#btn').click(() => {
+                                <br>
+                                $('#division1').slideToggle(); // toggling between hide and show status
+                                <br>
+                            });
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="content-note">
+                            NOTE: all these methods accept two argument. first is a callback function that execute after action finished, second is an milisencond that is animation time.
+                            <i class="fas-solid fa-warning"></i>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- Course Item -->
+
+            <!-- Course Item -->
+            <div class="course-wrapper" id="sec1" title="Jquery Css Animation">
+                <section class="course-section">
+                    <div class="course-section-title">
+                        <h1>Jquery Css Animation</h1>
+                    </div>
+                    <div class="course-section-content">
+                        <p>
+                            with jquery seting animation is so easy.
+                        </p>
+                        <h3 class="mt-5">animation() Method</h3>
+                        <p>
+                            jquery have a method called animation that do all actions.
+                        </p>
+                        <p>
+                            this method accept three argument. first is animation css property for making a move, second is animation duration time, third is callback function that execute after animations finished.
+                        </p>
+                        <div class="content-code">
+                            $('#division1').animation({
+                                <br>
+                                top: '20px',
+                                left: '20px'
+                                <br>
+                            }, 2000, () => {
+                                <br>
+                                alert('animation is over!');
+                                <br>
+                            });
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>
+                            in this example #division1 first move in 2second, and at the end throw an alert(). 
+                        </p>
+
+                        <h3 class="mt-5">Stoping Animation Before End</h3>
+                        <p>
+                            also you can stop your animation before end that with stop() method.
+                        </p>
+                        <div class="content-code">
+                            $('#btn').click(() => {
+                                <br>
+                                $('#division1').stop();
+                                <br>
+                            });
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>
+                            in this example whene clicked on #btn, #division1 animation has been stop
+                        </p>
+                    </div>
+                </section>
+            </div>
+            <!-- Course Item -->
+
+            <!-- Course Item -->
+            <div class="course-wrapper" id="sec1" title="Jquery Finding Elements">
+                <section class="course-section">
+                    <div class="course-section-title">
+                        <h1>Jquery Finding and Element</h1>
+                    </div>
+                    <div class="course-section-content">
+                        <p>
+                            for finding elements in DOM tree, you can use jquery methods.
+                        </p>
+                        <h3 class="mt-5">parent() Method</h3>
+                        <p>
+                            with this method you can get parent element.
+                        </p>
+                        <div class="content-code">
+                            $('#division1').parent();
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <h3 class="mt-5">parents() Method</h3>
+                        <p>
+                            with this method you can get all parent elements.
+                        </p>
+                        <p>
+                            this method also accept a argument.
+                            <br>
+                            you can pass a selector for example
+                        </p>
+                        <div class="content-code">
+                            $('#division1').parents(); // return all parents
+                            $('#division1').parents('.parent'); // return all parents with .parent class name
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+
+                        <p>
+                            also you can find childerens of element.
+                        </p>
+                        
+                        <h3>children() Method</h3>
+                        <p>
+                            with this method you can find childrens of a element. this method accept an argument.
+                        </p>
+                        <div class="content-code">
+                            $('#division1').children(); // return all childrens
+                            $('#division1').children('.children'); // return all children with .children class name
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+
+
+                        <p>
+                            you can find sideway element with jquery methods.
+                        </p>
+
+                        <h3 class="mt-5">siblings() Method</h3>
+                        <p>
+                            this method return all sideway elements.
+                        </p>
+                        <div class="content-code">
+                            $('#division1').siblings(); // return all sideway elements
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <h3 class="mt-5">next() Method</h3>
+                        <p>
+                            this method return first next element.
+                        </p>
+                        <div class="content-code">
+                            $('#division1').next(); // return first sideway elements
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <h3 class="mt-5">nextAll() Method</h3>
+                        <p>
+                            this method return all next elements.
+                        </p>
+                        <div class="content-code">
+                            $('#division1').nextAll(); // return all sideway elements
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <h3 class="mt-5">nextUntill() Method</h3>
+                        <p>
+                            this method return all next elements between two element.
+                        </p>
+                        <div class="content-code">
+                            $('#division1').nextUntill('p'); // return all sideway elements between #division1 and div tag
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <h3 class="mt-5">prev() Method</h3>
+                        <p>
+                            this method return first previous elements.
+                        </p>
+                        <div class="content-code">
+                            $('#division1').prev('p'); // return first previous elements.
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <h3 class="mt-5">prevAll() Method</h3>
+                        <p>
+                            this method return all previous elements.
+                        </p>
+                        <div class="content-code">
+                            $('#division1').prevAll('p'); // return all previous elements.
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <h3 class="mt-5">prevUntill() Method</h3>
+                        <p>
+                            this method return all prev elements between two element.
+                        </p>
+                        <div class="content-code">
+                            $('#division1').prevUntill('p'); // return all previous elements between #division1 and div tag
+                            <div class="content-code-copy">
+                                <button class="content-code-copy-btn" onclick="(e) => {copyCode(e)}">
+                                    <i class="fa-solid fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+
                     </div>
                 </section>
             </div>

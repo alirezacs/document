@@ -15,7 +15,7 @@ class CourseSlider{
         let courseContainer = document.getElementById('container');
 
         if (this.currentIndex === 0) {
-            alert('nemisheh');
+            return '';
         } else {
             this.currentIndex--;
             courseContainer.style.top = `-${(this.currentIndex) * 100}%`;
@@ -30,7 +30,7 @@ class CourseSlider{
 
         
         if (this.currentIndex === this.slides.length - 1) {
-            alert('nemisheh');
+            return '';
         } else {
             courseContainer.style.top = `-${(this.currentIndex + 1) * 100}%`;
             this.currentIndex++;
@@ -137,3 +137,13 @@ pageinationButton.addEventListener('click', () => {
 });
 
 /* Show Course List DropDown */
+
+/* Course Content Code ==> Copy Event */
+let copyButtons = document.querySelectorAll('.content-code-copy-btn');
+copyButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+        navigator.clipboard.writeText(button.parentElement.parentElement.innerText);
+        button.innerText = 'Text Copied !';
+    });
+});
+/* Course Content Code ==> Copy Event */
